@@ -9,7 +9,6 @@ nav{
 
 .nav-center {
     width: 90vw;
-    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -17,12 +16,10 @@ nav{
 }
 
 .nav-center h4 {
-    margin-bottom: 0;
     margin: auto 0;
     color: #F67280;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    
 }
 
 .link{
