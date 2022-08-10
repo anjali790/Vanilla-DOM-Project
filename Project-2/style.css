@@ -18,8 +18,8 @@ body{
 #value{
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    color: white;
+    font-size: 60px;
+    /* color: white; */
 }
 
 .div2{
