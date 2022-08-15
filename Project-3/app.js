@@ -42,7 +42,7 @@ const randomBtn = document.querySelector('.randomBtn');
 
 
 //set starting item:-
-let currentItem = 1;
+let currentItem = 0;
 
 //set initial item:-
 window.addEventListener("DOMContentLoaded", function () {
