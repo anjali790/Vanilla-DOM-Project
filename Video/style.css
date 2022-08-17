@@ -6,7 +6,13 @@ header{
     place-items: center;
     min-height: 100vh;
 }
-   
+  
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
 .video{
     position: absolute;
     top: 0;
@@ -17,11 +23,6 @@ header{
     z-index: -2;
 }
 
-h1{
-    color: chocolate;
-    font-size: 60px;
-}
- 
 .btn{
     position: absolute;
     bottom: 7%;
