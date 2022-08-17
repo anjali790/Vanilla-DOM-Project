@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #808000;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px black;
+    padding: 5px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.box{
+    text-align: center;
+    width: 650px;
+    height: 170px;
+    margin-top: 22px;
+    background-color: #bcb55a;
+    box-shadow: 8px 12px 8px;
+    border: 2px solid #bcb55a;
+}
+
+.count{
+    margin-top: 50px;
+    font-size: 50px;
+}
