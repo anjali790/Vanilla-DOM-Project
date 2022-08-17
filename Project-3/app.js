@@ -36,7 +36,7 @@ const img = document.querySelector('#img');
 const author = document.querySelector('#author');
 const job = document.querySelector('#job');
 const info = document.querySelector('#info');
-const nextBtn = document.querySelector('.nextBtn')
+const nextBtn = document.querySelector('.nextBtn');
 const prevBtn = document.querySelector('.prevBtn');
 const randomBtn = document.querySelector('.randomBtn');
 
