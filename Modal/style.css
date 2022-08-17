@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-color: #884513;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  max-width: 90%;
+  background-color: #DEB887;
+  width: 500px;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn{
+  background-color: #FFE4B5;
+  border: none;
+  color: #884513;
+  width: 200px;
+  box-shadow: 10px 10px 10px black;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 33px;
+  color: #884513;
+}
+
+.popUp{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    display: grid;
+    align-items: center;
+    margin: auto auto;
+    justify-content: center;
+    pointer-events: none;
+    text-align: center;
+}
+
+hr{
+    border-top: 2px solid black;
+}
+
+.btn1{
+  pointer-events: auto;
+  opacity: 1;
+ 
+}
+
+.cancelBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    color: grey;
+    font-size: 30px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cancelBtn :hover{
+    color: #884513;
+    font-size: 32px;
+}
