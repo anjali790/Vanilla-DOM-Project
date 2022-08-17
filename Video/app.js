@@ -9,4 +9,4 @@ btn.addEventListener('click', ()=>{
         btn.classList.remove('slide');
         video.play();
     }
-})
+});
