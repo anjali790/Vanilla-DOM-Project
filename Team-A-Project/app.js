@@ -33,5 +33,5 @@ submit.addEventListener('click', (e) => {
 });
 
 cross.addEventListener('click', (e) => {
-    popUp.remove();
+    cross.parentElement.remove();
 });
