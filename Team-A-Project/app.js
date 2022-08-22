@@ -16,8 +16,8 @@ createTask.addEventListener('click', () => {
     popUp.style.display = 'block';
 });
 
-submit.addEventListener('click', (e) => {
-    e.preventDefault();
+submit.addEventListener('click', (event) => {
+    event.preventDefault();
     popUp.style.display = 'none';
 
     const movieInfo = document.createElement('div');
