@@ -25,3 +25,60 @@ body {
 	cursor: pointer;
 	border: none;
 }
+
+.pop-Up {
+	width: 670px;
+	height: 310px;
+	top: 200px;
+	left: 500px;
+	position: fixed;
+	display: none;
+	background-color: rgb(23, 9, 60);
+	border-radius: 12px;
+}
+
+input {
+	width: 280px;
+	height: 50px;
+	margin: 10px 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+.closeBtn {
+	position: absolute;
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	top: 5px;
+	left: 95%;
+}
+
+.submit {
+	line-height: 2px;
+	background-color: #F9D1D1;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 40px;
+	padding: 10px;
+	margin-left: 150px;
+	color: #0b4b54;
+}
+
+.movieInfo {
+	background-color: white;
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	width: 450px;
+	height: auto;
+	padding: 10px;
+	color: #0b4b54;
+	border-radius: 10px;
+}
