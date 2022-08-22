@@ -23,15 +23,15 @@ submit.addEventListener('click', (event) => {
     const movieInfo = document.createElement('div');
     movieInfo.classList.add('movieInfo')
     movieInfo.innerHTML = `<h2>Movie Name:- ${movieName.value}</h2>
-                            <p>Movie Image Link:-<a href="#"> ${movieLink.value}</a> </p>
+                            <p>Movie Image Link:-<a href=""> ${movieLink.value}</a> </p>
                             <p>Imbd:- ${imdbRating.value}</p>
                             <p>Category:- ${category.value}</p>
-                            <p>Trailer Link:-<a href="#"> ${trailerLink.value}</a> </p>
+                            <p>Trailer Link:-<a href=""> ${trailerLink.value}</a> </p>
                             <p>Actors Name:- ${actorName.value}</p>
                             <p>Director Name:- ${directorName.value}</p>`
     movieBox.append(movieInfo);
 });
 
-cross.addEventListener('click', (e) => {
+cross.addEventListener('click', (event) => {
     cross.parentElement.remove();
 });

@@ -84,6 +84,7 @@ input {
 }
 
 p,
-h2 {
+h2,
+a {
 	width: 300px;
 }
