@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    width: 1200px;
+    height: 550px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px black;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.input-container{
+    text-align: center;
+    margin: 60px 0;
+}
+
+.input-container i{
+    font-size: 60px;
+    color: goldenrod;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.input{
+    width: 300px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px ;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 4px #fff;
+    margin-right: 30px;
+}
+
+.inputBtn{
+    height: 45px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(52, 126, 81);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px black;
+    
+}
+
+.display{
+    text-align: left;
+    margin-left:  100px;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+    font-family: 'San', sans-serif;
+} 
+
+.currently{
+    font-size: 15px;
+}
+.temp{
+    font-size: 50px;
+}
+
+.info-div{
+    margin-top: 30px;
+    color: whitesmoke;
+}
