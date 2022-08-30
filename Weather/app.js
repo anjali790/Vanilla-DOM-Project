@@ -8,18 +8,27 @@ const humidity = document.querySelector('.humidity');
 const long = document.querySelector('.long');
 const lati = document.querySelector('.lati');
 const windSpeed = document.querySelector('.windSpeed');
+const display = document.querySelector('.display');
 
 
 
 
 btn.addEventListener('click', (event)=>{
 event.preventDefault();
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=8903fb63731c6701c61fb4bda5f53891')
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=9e0f88b5347b1a3d9910161dcb56e595`)
     .then(response => response.json())
     .then(data => {
-        // let nameValue = data['name'];
+        // let res = `<div><h1>${data.name}</h1>
+        // let h1 = document.createC
+        // <h2>temp = ${Math.floor(data['main'].temp-273)}</h2>
+        
+        
+        // </div>`
+
+
         let tempValue = data['main']['temp'];
-        let descValue = data['weather'][0]['description'];
+        let descValue = data['weather'][0];['description'];
+        // let nameValue = data.name;
         let humidityValue = data['main']['humidity'];
         let longValue = data['coord']['lon'];
         let latiValue = data['coord']['lat'];
@@ -27,7 +36,7 @@ event.preventDefault();
 
     
         curr.innerHTML = `CURRENTLY`;
-        // city.innerHTHML = nameValue;
+        city.innerHTHML = `${nameValue}`;
         des.innerHTML =`${descValue}`;
         temp.innerHTML = `${Math.floor(tempValue-273)}°C`;
         humidity.innerHTML = `Humidity: ${humidityValue}%`
@@ -35,6 +44,7 @@ event.preventDefault();
         lati.innerHTML = `Latitude: ${latiValue}`;
         windSpeed.innerHTML = `Wind Speed: ${windSpeedValue}m/s`;
 
+        
     })
     .catch(error => alert('wrong city name'))
 });
