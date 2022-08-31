@@ -11,64 +11,68 @@
 </head>
 
 <body>
-    <button class="sidebarToggle">
-        <i class="fa-solid fa-bars"></i>
-    </button>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebarHeader">
+                <img src="https://raw.githubusercontent.com/john-smilga/javascript-basic-projects/652657668921c4d2fcc57d11b1f7400ed0ad2f31/05-sidebar/final/logo.svg"
+                    alt="sidebar-image">
+                <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
     
-    <aside class="sidebar">
-        <div class="sidebarHeader">
-            <img src="https://raw.githubusercontent.com/john-smilga/javascript-basic-projects/652657668921c4d2fcc57d11b1f7400ed0ad2f31/05-sidebar/final/logo.svg"
-                alt="sidebar-image">
-            <button class="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+            <!-----links----->
+            <ul class="links">
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">project</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+    
+            <!------icons----->
+            <div class="icon">
+                <ul class="icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-sketch"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="btnDiv">
+            <button class="sidebarToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
-
-        <!-----links----->
-        <ul class="links">
-            <li>
-                <a href="#">home</a>
-            </li>
-            <li>
-                <a href="#">about</a>
-            </li>
-            <li>
-                <a href="#">project</a>
-            </li>
-            <li>
-                <a href="#">contact</a>
-            </li>
-        </ul>
-
-        <!------icons----->
-        <ul class="icons">
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-sketch"></i>
-                </a>
-            </li>
-        </ul>
-
-
-    </aside>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 

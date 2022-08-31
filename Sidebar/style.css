@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: aquamarine;
+    width: 300px;
+    padding: 10px;
+    display: none;
+}
+
+.sidebarToggle{
+    font-size: 35px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.sidebarToggle:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.closeBtn{
+    padding:3px 5px;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    cursor: pointer;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 250px;
+}
+
+.links li{
+    margin-bottom: 20px;
+}
+.links li a{
+    text-decoration: none;
+    color: rgb(103, 22, 121);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    padding:20px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+i{
+    color: black;
+}
+
+.active{
+    display: block;
+}
