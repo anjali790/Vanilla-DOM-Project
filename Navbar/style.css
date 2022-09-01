@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+nav {
+    padding: .5rem 10rem;
+    background-color: black;
+}
+
+h1 {
+    font-size: 35px;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggleBtn {
+    font-size: 30px;
+    color: greenyellow;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.toggleBtn:hover {
+    color: rgb(103, 151, 190);
+    transform: rotate(90deg) scale(1.2);
+}
+
+.links a {
+    text-transform: capitalize;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.links {
+    height: 0;
+    display: none;
+}
+
+.active {
+    display: block;
+    height: auto;
+    background-color: rgb(71, 209, 255);
+}
+
+li {
+    list-style: none;
+}
